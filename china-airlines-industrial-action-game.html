@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<link href="css/creative.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="airplane" id="airplane">
+    <div style="position: absolute; width: 80px; height: 80px; z-index: 1; left: 100px; top: 150px;background-image:url(https://image.flaticon.com/icons/svg/180/180983.svg);" id="airplaneimg"></div>
+  </div>
+  <!-- 問題區 -->
+  <div class="question" id="qqq">
+
+    <!-- 第一題     -->
+    <div class="q" id="q1">
+      1.今天你和家人要出國旅遊，但是到了桃園機場，卻發現你的航班因為機師罷工而取消，現場有旅客跟櫃台質疑、吵架，你會怎麼做？
+    </div>
+
+    <!-- 第二題     -->
+    <div class="q" id="q2">
+      2.下面哪一個不是《勞資爭議處理法》中的合法罷工程序？
+    </div>
+
+    <!-- 第三題     -->
+    <div class="q" id="q3">
+      3.下面哪一個不是《勞資爭議處理法》中的合法罷工程序？
+    </div>
+    
+        <!-- 第四題     -->
+    <div class="q" id="q4">
+      4.下面哪一個不是《勞資爭議處理法》中的合法罷工程序？
+    </div>
+    
+            <!-- 第五題     -->
+    <div class="q" id="q5">
+      5.下面哪一個不是《勞資爭議處理法》中的合法罷工程序？
+    </div>
+    
+  </div>
+
+  <!-- 答案與解釋區 -->
+  <div class="answer">
+
+    <!-- 第一題答案與解釋     -->
+
+    <div id="q1a" onclick="q1e();">
+      <button class="btn" id="q1a1" onclick="highStart();">沒事沒事下次再去<br>ヽ(✿ﾟ▽ﾟ)ノ</button>
+      <button class="btn" id="q1a2" onclick="lowStart();">來吵架啊啊啊啊啊<br>ヽ(✿ﾟ▽ﾟ)ノ</button>
+      <button class="btn" id="q1a3" onclick="highStart();">沒事沒事下次再去<br>ヽ(✿ﾟ▽ﾟ)ノ</button>
+      <button class="btn" id="q1a4" onclick="lowStart();">來吵架啊啊啊啊啊<br>ヽ(✿ﾟ▽ﾟ)ノ</button>
+    </div>
+
+    <div class="explain" id="q1e">
+      你怎麼可以打架咧？當然要尊重包容友善啊！
+      <button class="explainbutton" id="q1know" onclick="q2();">我知道了ヽ(✿ﾟ▽ﾟ)ノ</button>
+    </div>
+
+    <!-- 第二題答案與解釋     -->
+
+    <div id="q2a" onclick="q2e();">
+      <button class="btn" id="q2a1" onclick="highStart();">以解決勞資爭議為目標</button>
+      <button class="btn" id="q2a2" onclick="lowStart();">禁止罷工之勞工與罷工中的「必要服務條款」</button>
+      <button class="btn" id="q2a3" onclick="highStart();">雇主不能因為勞工參加罷工<br>而解僱或懲戒勞工（不當勞動行為）</button>
+      <button class="btn" id="q2a4" onclick="lowStart();">勞工可以不必組織工會就進行罷工</button>
+    </div>
+
+    <div class="explain" id="q2e">
+      雖然台灣無此規定，但有不少國家有相關規定。譬如歐洲就有24個國家這樣規定，例如罷工前2日要預告的有羅馬尼亞、匈牙利為72小時；4日的有希臘；5日的則為法國、克羅埃西亞、馬斯垂克上區域管制中心（MUAC）飛航管制區內者，荷蘭為5至7日前。罷工前7日要預告的最多，有保加利亞、愛爾蘭、拉脫維亞、馬爾他、瑞典、英國；10日的有盧森堡、西班牙、葡萄牙（不得含假日）；義大利規定12日，明定14日的則為愛沙尼亞、芬蘭、立陶宛、波蘭； 15日的有比利時及斯洛維尼亞，丹麥則須一個月前預告。
+      <button class="explainbutton" id="q2know" onclick="q3();">我知道了ヽ(✿ﾟ▽ﾟ)ノ</button>
+    </div>
+    
+        <!-- 第三題答案與解釋     -->
+
+    <div id="q3a" onclick="q3e();">
+      <button class="btn" id="q3a1" onclick="highStart();">以解決勞資爭議為目標</button>
+      <button class="btn" id="q3a2" onclick="lowStart();">禁止罷工之勞工與罷工中的「必要服務條款」</button>
+      <button class="btn" id="q3a3" onclick="highStart();">雇主不能因為勞工參加罷工<br>而解僱或懲戒勞工（不當勞動行為）</button>
+      <button class="btn" id="q3a4" onclick="lowStart();">勞工可以不必組織工會就進行罷工</button>
+    </div>
+
+    <div class="explain" id="q3e">
+      雖然台灣無此規定，但有不少國家有相關規定。譬如歐洲就有24個國家這樣規定，例如罷工前2日要預告的有羅馬尼亞、匈牙利為72小時；4日的有希臘；5日的則為法國、克羅埃西亞、馬斯垂克上區域管制中心（MUAC）飛航管制區內者，荷蘭為5至7日前。罷工前7日要預告的最多，有保加利亞、愛爾蘭、拉脫維亞、馬爾他、瑞典、英國；10日的有盧森堡、西班牙、葡萄牙（不得含假日）；義大利規定12日，明定14日的則為愛沙尼亞、芬蘭、立陶宛、波蘭； 15日的有比利時及斯洛維尼亞，丹麥則須一個月前預告。
+      <button class="explainbutton" id="q3know" onclick="q4();">我知道了ヽ(✿ﾟ▽ﾟ)ノ</button>
+    </div>
+    
+            <!-- 第四題答案與解釋     -->
+
+    <div id="q4a" onclick="q4e();">
+      <button class="btn" id="q4a1" onclick="highStart();">以解決勞資爭議為目標</button>
+      <button class="btn" id="q4a2" onclick="lowStart();">禁止罷工之勞工與罷工中的「必要服務條款」</button>
+      <button class="btn" id="q4a3" onclick="highStart();">雇主不能因為勞工參加罷工<br>而解僱或懲戒勞工（不當勞動行為）</button>
+      <button class="btn" id="q4a4" onclick="lowStart();">勞工可以不必組織工會就進行罷工</button>
+    </div>
+
+    <div class="explain" id="q4e">
+      雖然台灣無此規定，但有不少國家有相關規定。譬如歐洲就有24個國家這樣規定，例如罷工前2日要預告的有羅馬尼亞、匈牙利為72小時；4日的有希臘；5日的則為法國、克羅埃西亞、馬斯垂克上區域管制中心（MUAC）飛航管制區內者，荷蘭為5至7日前。罷工前7日要預告的最多，有保加利亞、愛爾蘭、拉脫維亞、馬爾他、瑞典、英國；10日的有盧森堡、西班牙、葡萄牙（不得含假日）；義大利規定12日，明定14日的則為愛沙尼亞、芬蘭、立陶宛、波蘭； 15日的有比利時及斯洛維尼亞，丹麥則須一個月前預告。
+      <button class="explainbutton" id="q4know" onclick="q5();">我知道了ヽ(✿ﾟ▽ﾟ)ノ</button>
+    </div>
+    
+                <!-- 第五題答案與解釋     -->
+
+    <div id="q5a" onclick="q5e();">
+      <button class="btn" id="q5a1" onclick="highStart();">以解決勞資爭議為目標</button>
+      <button class="btn" id="q5a2" onclick="lowStart();">禁止罷工之勞工與罷工中的「必要服務條款」</button>
+      <button class="btn" id="q5a3" onclick="highStart();">雇主不能因為勞工參加罷工<br>而解僱或懲戒勞工（不當勞動行為）</button>
+      <button class="btn" id="q5a4" onclick="lowStart();">勞工可以不必組織工會就進行罷工</button>
+    </div>
+
+    <div class="explain" id="q5e">
+      雖然台灣無此規定，但有不少國家有相關規定。譬如歐洲就有24個國家這樣規定，例如罷工前2日要預告的有羅馬尼亞、匈牙利為72小時；4日的有希臘；5日的則為法國、克羅埃西亞、馬斯垂克上區域管制中心（MUAC）飛航管制區內者，荷蘭為5至7日前。罷工前7日要預告的最多，有保加利亞、愛爾蘭、拉脫維亞、馬爾他、瑞典、英國；10日的有盧森堡、西班牙、葡萄牙（不得含假日）；義大利規定12日，明定14日的則為愛沙尼亞、芬蘭、立陶宛、波蘭； 15日的有比利時及斯洛維尼亞，丹麥則須一個月前預告。
+      <button class="explainbutton" id="q5know" onclick="theend();">我知道了ヽ(✿ﾟ▽ﾟ)ノ</button>
+    </div>
+    <div id="end">結果吧拉吧拉</div>
+  </div>
+
+</body>
+
+<script>
+	// JavaScript Documentvar m = 0;
+var n = 0;
+
+function low() {
+  var obj = document.getElementById("airplaneimg");
+  m++;
+  n++;
+
+  obj.style.left = parseInt(obj.style.left) + 3 + "px";
+  obj.style.top = parseInt(obj.style.top) + 1 + "px";
+  // obj.innerHTML="(" + obj.style.left + "," + obj.style.top +")"
+
+  if (m == 30 && n == 30) {
+    m = 0;
+    n = 0;
+    timeStop();
+    
+  }
+}
+
+function lowStart() {
+  t = setInterval("low()", 10);
+  document.getElementById("airplaneimg").style.transform = "rotate(15deg)";
+}
+
+function timeStop() {
+  clearInterval(t);
+}
+
+function high() {
+  var obj = document.getElementById("airplaneimg");
+  m++;
+  n++;
+
+obj.style.left = parseInt(obj.style.left) + 4 + "px";
+obj.style.top = parseInt(obj.style.top) - 1 + "px";
+// obj.innerHTML="(" + obj.style.left + "," + obj.style.top +")"
+  if (m == 30 && n == 30) {
+    m = 0;
+    n = 0;
+    timeStop();
+  }
+}
+
+function highStart() {
+  t = setInterval("high()", 10);
+  document.getElementById("airplaneimg").style.transform = "rotate(-15deg)";
+}
+
+function timeStop() {
+  clearInterval(t);
+}
+
+function q1e() {
+    document.getElementById("q1").style.display = "none";
+    document.getElementById("q1a").style.display = "none";
+    document.getElementById("q1e").style.display = "block";
+}
+
+function q2() {
+    document.getElementById("q1e").style.display = "none";
+    document.getElementById("q2").style.display = "block";
+    document.getElementById("q2a").style.display = "block";
+}
+
+function q2e() {
+    document.getElementById("q2").style.display = "none";
+    document.getElementById("q2a").style.display = "none";
+    document.getElementById("q2e").style.display = "block";
+}
+
+function q3() {
+    document.getElementById("q2e").style.display = "none";
+    document.getElementById("q3").style.display = "block";
+    document.getElementById("q3a").style.display = "block";
+}
+
+function q3e() {
+    document.getElementById("q3").style.display = "none";
+    document.getElementById("q3a").style.display = "none";
+    document.getElementById("q3e").style.display = "block";
+}
+
+function q4() {
+    document.getElementById("q3e").style.display = "none";
+    document.getElementById("q4").style.display = "block";
+    document.getElementById("q4a").style.display = "block";
+}
+
+function q4e() {
+    document.getElementById("q4").style.display = "none";
+    document.getElementById("q4a").style.display = "none";
+    document.getElementById("q4e").style.display = "block";
+}
+
+function q5() {
+    document.getElementById("q4e").style.display = "none";
+    document.getElementById("q5").style.display = "block";
+    document.getElementById("q5a").style.display = "block";
+}
+
+function q5e() {
+    document.getElementById("q5").style.display = "none";
+    document.getElementById("q5a").style.display = "none";
+    document.getElementById("q5e").style.display = "block";
+}
+
+function theend() {
+    document.getElementById("q5e").style.display = "none";
+      document.getElementById("end").style.display = "block";
+}
+</script>
+
+</html>
