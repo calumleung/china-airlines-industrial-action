@@ -29,7 +29,7 @@
 
 <!-- Theme CSS - Includes Bootstrap -->
 <link href="css/creative.min.css" rel="stylesheet">
-	
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101940430-3"></script>
 <script>
@@ -39,7 +39,6 @@
 
   gtag('config', 'UA-101940430-3');
 </script>
-
 </head>
 
 <body id="page-top">
@@ -50,7 +49,7 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
-		<li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#game">考考你</a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#game">考考你</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#timeline">華航罷工大事記</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#chatbox">面對面對話</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#contact">製作團隊</a> </li>
@@ -82,24 +81,57 @@
         <h2 class="text-white mt-0">小測驗</h2>
         <hr class="divider light my-4">
         <p class="text-white-50 mb-4">testing</p>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
 <!-- timeline Section -->
 <section class="page-section bg-light" id="timeline">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="text-white mt-0">華航罷工大事記</h2>
-        <hr class="divider light my-4">
-        <p class="text-white-50 mb-4">testing</p>
+      <div class="col-lg-8">
+        <h2 class="text-dark mt-0 text-center">華航罷工大事記</h2>
+        <hr class="divider dark my-4">
+		<div class="timeline">
+		<div class="line">
+		
+		<button type="button" class="btn btn-secondary" onclick="myFunction()" style="text-align: left;">2015年4月26日｜以華航機師為主的桃園機師工會，通過罷工投票</button>
+        </div>
+		<div class="timeline-collapse" id="t1"> 
+		<div class="comment">
+			<p>- 經過：670位會員中有596名投票贊成罷工、2名廢票</p>
+			<p>- 結果：因勞資協商結果，而並未實際罷工 </p>
+		</div>
+		  </div>
+		</div>
+		
+		
+		<div class="timeline">
+		<button type="button" class="btn btn-secondary" onclick="myFunction()" style="text-align: left;">2016年5月5日｜中華航空公司變更勞動條件引爭議</button>
+        <div class="timeline-collapse" id="t2" style="display:none"> 
+		<div class="comment">
+			<p>・具體內容：中華航空公司依照公司既定政策而宣布從6月1日開始，空中服務員的報到地點從臺北市松山區變更為桃園市總部，並片面要求簽署基於《勞動基準法》第84條之1項的責任制約定書</p>
+		</div>
+		  </div>
+		</div>
+		 
+      </div>
     </div>
   </div>
-</div>
+  <script>
+function myFunction() {
+  var x = document.getElementById("t1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+	</script> 
+
 </section>
-	
+
 <!-- chatbox Section -->
 <section class="page-section bg-dark" id="chatbox">
   <div class="container">
@@ -108,11 +140,11 @@
         <h2 class="text-white mt-0">跟華航、空服員聊一聊</h2>
         <hr class="divider light my-4">
         <p class="text-white-50 mb-4">testing</p>
+      </div>
     </div>
   </div>
-</div>
 </section>
-	
+
 <!-- contact Section -->
 <section class="page-section bg-primary" id="contact">
   <div class="container">
@@ -121,12 +153,11 @@
         <h2 class="text-white mt-0">製作團隊</h2>
         <hr class="divider light my-4">
         <p class="text-white-50 mb-4">testing</p>
+      </div>
     </div>
   </div>
-	 </div>
 </section>
-	
-<span style="display: none">
+<span style="display: none"> 
 <!-- Services Section -->
 <section class="page-section" id="services">
   <div class="container">
@@ -232,7 +263,7 @@
     </div>
   </div>
 </section>
-</span>
+</span> 
 
 <!-- Footer -->
 <footer class="bg-light py-5">
