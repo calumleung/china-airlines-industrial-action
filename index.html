@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="請放七個關鍵字並用半形逗點分隔">
+<meta name="keywords" content="華航,罷工,勞權,新聞專題,中華航空,機師,空服員">
 <meta name="description" content="年初，華航機師發起了台灣史上第二次航空業罷工。其實，這起罷工是透過投票取得「合法罷工權」，但是許多人批評工會不應選在春節期間發起。不過，也有人對機師需要執飛「紅眼航班」而爭取權益表示體諒。到底「合法」是否「合情」？兩次航空業的罷工又揭示了什麼樣的勞權問題呢？">
 <link rel="shortcut icon" href="../china-airlines-industrial-action/img/head-logo.png" type="image/vnd.microsoft.icon">
 <meta name="google-site-verification" content="WhvbQ7xxoFzp5_O2AVW4vjOd0ztz324wOL-9DobVXmQ" />
@@ -93,11 +93,20 @@
       <div class="col-lg-8">
         <h2 class="text-dark mt-0 text-center">華航罷工大事記</h2>
         <hr class="divider dark my-4">
-		<div class="timeline">
-		<div class="line">
 		
-		<button type="button" class="btn btn-secondary" onclick="myFunction()" style="text-align: left;">2015年4月26日｜以華航機師為主的桃園機師工會，通過罷工投票</button>
-        </div>
+		 <!-- 
+		 <span onClick="blah(t1)">2015年4月26日｜以華航機師為主的桃園機師工會，通過罷工投票</span>
+		<div class="timeline">
+		<div class="timeline-explain">
+			<p>- 經過：670位會員中有596名投票贊成罷工、2名廢票</p>
+			<p>- 結果：因勞資協商結果，而並未實際罷工 </p>
+			</div>
+		</div>
+	-->
+		<div class="timeline" >
+		<div class="line" style="display: inline;position: relative;padding-right: 30px">
+		<button type="button" class="btn btn-secondary" onclick="t1()" style="text-align: left;">2015年4月26日｜以華航機師為主的桃園機師工會，通過罷工投票</button>
+        
 		<div class="timeline-collapse" id="t1" style="display:none"> 
 		<div class="comment">
 			<p>- 經過：670位會員中有596名投票贊成罷工、2名廢票</p>
@@ -105,22 +114,25 @@
 		</div>
 		  </div>
 		</div>
-		
+		</div>
 		
 		<div class="timeline">
-		<button type="button" class="btn btn-secondary" onclick="myFunction()" style="text-align: left;">2016年5月5日｜中華航空公司變更勞動條件引爭議</button>
+		<button type="button" class="btn btn-secondary" onclick="t2()" style="text-align: left;">2016年5月5日｜中華航空公司變更勞動條件引爭議</button>
         <div class="timeline-collapse" id="t2" style="display:none"> 
 		<div class="comment">
 			<p>・具體內容：中華航空公司依照公司既定政策而宣布從6月1日開始，空中服務員的報到地點從臺北市松山區變更為桃園市總部，並片面要求簽署基於《勞動基準法》第84條之1項的責任制約定書</p>
 		</div>
 		  </div>
 		</div>
-		 
+
       </div>
     </div>
   </div>
+
   <script>
-function myFunction() {
+  
+
+function t1() {
   var x = document.getElementById("t1");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -129,7 +141,7 @@ function myFunction() {
   }
 };
 	  
-function myFunction() {
+function t2() {
   var x = document.getElementById("t2");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -137,6 +149,7 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+
 	</script> 
 
 </section>
@@ -146,7 +159,7 @@ function myFunction() {
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h2 class="text-white mt-0">跟華航、空服員聊一聊</h2>
+        <h2 class="text-white mt-0">跟華航、機師聊一聊</h2>
         <hr class="divider light my-4">
         <p class="text-white-50 mb-4">testing</p>
       </div>
