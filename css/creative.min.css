@@ -57,10 +57,8 @@ body {
 	font-family: Merriweather, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-size: 1rem;
 	font-weight: 400;
-	line-height: 1.5;
-	color: #212529;
 	text-align: left;
-	background-color: #fff
+	background-color: #f2f2f2
 }
 [tabindex="-1"]:focus {
 	outline: 0!important
@@ -93,6 +91,13 @@ p {
 
 .timeline-collapse p{
 	padding: 0px 10px 0 30px;
+	color: #222;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: 1px;
+	font-weight: 300;
+	margin: 0px
+	
 }
 
 .timeline button {
@@ -105,7 +110,7 @@ p {
 	height: 100%;
 	background: #FFDD71;
 	left: 7px;
-	width: 1px;
+	width: 3px;
 	content: "";
 	position: absolute;
 	text-align: center;
@@ -134,15 +139,15 @@ p {
 
 .timeline-collapse {
   width: 100%;
-  padding: 20px 0;
+  padding: 4px 0px 0px 0px;
   text-align: left;
   background-color: transparent;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 /*timeline css end point*/
 
-/*game css start point*/
+/*game css start point
 .airplane {
 	width: 100%;
 	max-width: 768px;
@@ -236,7 +241,7 @@ p {
 	font-weight: bolder;
 	color: black;
 }
-/*game css end point*/
+game css end point*/
 
 
 abbr[data-original-title], abbr[title] {
