@@ -83,6 +83,12 @@ p {
 	font-weight: 300;
 }
 
+@media (max-width:576px) {
+p {
+	font-size: 18px;
+}
+}
+
 /*timeline css start point*/
 .timeline {
 	position: relative;
