@@ -15,10 +15,10 @@
 }
 #runway {
 	width: 100%;
-	position: relative;
-	top: 500px;
+	position: absolute;
+	top: 300;
 	display: none;
-	z-index: 101;
+	z-index: 102;
 }
 #explosionimg {
 	display: none;
