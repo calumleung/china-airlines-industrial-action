@@ -63,7 +63,7 @@ function timeStop() {
 }
 
 function q1e() {
-    document.getElementById("q1").style.visibility = "hidden";
+    document.getElementById("q1").style.display = "hidden";
     document.getElementById("q1a").style.display = "none";
     document.getElementById("q1e").style.display = "block";
 }
@@ -75,7 +75,7 @@ function q2() {
 }
 
 function q2e() {
-    document.getElementById("q2").style.visibility = "hidden";
+    document.getElementById("q2").style.display = "none";
     document.getElementById("q2a").style.display = "none";
     document.getElementById("q2e").style.display = "block";
 }
@@ -87,7 +87,7 @@ function q3() {
 }
 
 function q3e() {
-    document.getElementById("q3").style.visibility = "hidden";
+    document.getElementById("q3").style.display = "none";
     document.getElementById("q3a").style.display = "none";
     document.getElementById("q3e").style.display = "block";
 }
@@ -99,7 +99,7 @@ function q4() {
 }
 
 function q4e() {
-    document.getElementById("q4").style.visibility = "hidden";
+    document.getElementById("q4").style.display = "none";
     document.getElementById("q4a").style.display = "none";
     document.getElementById("q4e").style.display = "block";
 }
@@ -111,7 +111,7 @@ function q5() {
 }
 
 function q5e() {
-    document.getElementById("q5").style.visibility = "hidden";
+    document.getElementById("q5").style.display = "none";
     document.getElementById("q5a").style.display = "none";
     document.getElementById("q5e").style.display = "block";
 }
