@@ -91,7 +91,7 @@ p {
 /*timeline css start point*/
 #timeline .timeline-content {
 	overflow: auto;
-	max-height: 400px;
+	max-height: 450px;
 }
 .timeline {
 	position: relative;
@@ -100,17 +100,17 @@ p {
 .timeline-collapse p {
 	padding: 20px 10px 0px 30px;
 	color: #222;
-	font-size: 16px;
+	font-size: 17px;
 	text-align: justify;
 	letter-spacing: 1px;
-	font-weight: 300;
-	margin: 0px
+	font-weight: 400;
+	margin: 0px;
 }
 .timeline-content button {
 	position: relative;
 	width: auto;
 	padding: .5rem 1rem;
-	font-size: 16px;
+	font-size: 17px;
 }
 .timeline-content .line {
 	display: inline;
@@ -8840,7 +8840,7 @@ body, html {
 hr.divider {
 	max-width: 3.25rem;
 	border-width: .2rem;
-	border-color: #ED6A5A
+	border-color: #C9595B
 }
 hr.light {
 	border-color: #fff
@@ -8882,10 +8882,10 @@ hr.light {
 	padding: .75rem 0
 }
 #mainNav .navbar-nav .nav-item .nav-link:active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-	color: #ED6A5A
+	color: #C9595B
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-	color: #ED6A5A!important
+	color: #C9595B!important
 }
 
 @media (min-width:992px) {
@@ -8919,13 +8919,13 @@ hr.light {
 	color: #212529
 }
 #mainNav.navbar-scrolled .navbar-brand:hover {
-	color: #ED6A5A
+	color: #C9595B
 }
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
 	color: #212529
 }
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-	color: #ED6A5A
+	color: #C9595B
 }
 }
 header.masthead {
