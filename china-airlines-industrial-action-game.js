@@ -6,8 +6,8 @@ function low() {
   m++;
   n++;
 
-  obj.style.left = parseInt(obj.style.left) + 3 + "px";
-  obj.style.top = parseInt(obj.style.top) + 1 + "px";
+  obj.style.left = parseInt(obj.style.left) + 1 + "rem";
+  obj.style.top = parseInt(obj.style.top) + 1 + "rem";
   // obj.innerHTML="(" + obj.style.left + "," + obj.style.top +")"
 
   if (m == 30 && n == 30) {
@@ -32,8 +32,8 @@ function high() {
   m++;
   n++;
 
-obj.style.left = parseInt(obj.style.left) + 4 + "px";
-obj.style.top = parseInt(obj.style.top) - 1 + "px";
+obj.style.left = parseInt(obj.style.left) + 1 + "rem";
+obj.style.top = parseInt(obj.style.top) - 1 + "rem";
 // obj.innerHTML="(" + obj.style.left + "," + obj.style.top +")"
   if (m == 30 && n == 30) {
     m = 0;
