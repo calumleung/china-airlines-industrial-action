@@ -28,6 +28,7 @@
 	padding: 30px 5px;
 	margin: 0 auto;
 	color: #414141;
+	border-radius: 20px 20px 0px 0px;
 	
   }
   
@@ -236,6 +237,7 @@
 	font-family: Microsoft JhengHei;
 	padding: 5px 5px;
 	margin: 0 auto;
+	border-radius: 0px 0px 20px 20px;
   }
   
   .chatbox_input{
