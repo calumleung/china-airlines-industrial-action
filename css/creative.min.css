@@ -41,13 +41,12 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box
 }
-
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
-		color: #f2f2f2;
+	color: #f2f2f2;
 }
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 	display: block
@@ -89,32 +88,36 @@ p {
 	padding: 0px 5px;
 }
 }
-
 /*timeline css start point*/
+#timeline .timeline-content {
+	overflow: auto;
+	max-height: 400px;
+}
 .timeline {
 	position: relative;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 0.5rem 0px;
 }
-
-.timeline-collapse p{
-	padding: 20px 10px 0 30px;
+.timeline-collapse p {
+	padding: 20px 10px 0px 30px;
 	color: #222;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: justify;
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin: 0px
-	
 }
-
-.timeline button {
+.timeline-content button {
 	position: relative;
 	width: auto;
-	padding: 10px 20px 10px 20px;
-	font-size: 15px;
+	padding: .5rem 1rem;
+	font-size: 16px;
 }
-
-.timeline .line ::before{
+.timeline-content .line {
+	display: inline;
+	position: relative;
+	padding-right: 30px;
+}
+.timeline-content .line ::before {
 	height: 100%;
 	background: #FFDD71;
 	left: -15px;
@@ -127,10 +130,9 @@ p {
 	box-sizing: border-box;
 	margin: 0;
 }
-
-.timeline .line ::after{
+.timeline-content .line ::after {
 	background-color: #FFDD71;
-	border: 2px  solid #fff;
+	border: 2px solid #fff;
 	left: -20px;
 	content: "";
 	display: inline-block;
@@ -139,23 +141,18 @@ p {
 	height: 15px;
 	border-radius: 50%;
 	position: absolute;
-
 	line-height: .8em;
 	top: 5px;
 	box-sizing: border-box;
 	margin: 0;
 }
-
 .timeline-collapse {
-  width: 100%;
-  padding: 4px 0px 0px 0px;
-  text-align: left;
-  background-color: transparent;
-  margin-top: 0px;
+	width: 100%;
+	padding: 4px 0px 0px 0px;
+	text-align: left;
+	background-color: transparent;
+	margin-top: 0px;
 }
-
-
-
 abbr[data-original-title], abbr[title] {
 	text-decoration: underline;
 	-webkit-text-decoration: underline dotted;
@@ -8862,9 +8859,8 @@ hr.light {
 .page-section {
 	padding: 8rem 0
 }
-
 .middle-page-section {
-	padding: 1rem 0
+	padding: .5rem 0
 }
 #mainNav {
 	-webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
@@ -8946,8 +8942,8 @@ header.masthead h1 {
 	font-size: 2.25rem
 }
 
-@media (max-width:576px){
-	header.masthead {
+@media (max-width:576px) {
+header.masthead {
 	padding-top: 420px;
 	padding-bottom: calc(10rem - 72px);
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(92,77,66,.8)), to(rgba(92,77,66,.8))), url(../img/bg-masthead.jpg);
@@ -8957,11 +8953,11 @@ header.masthead h1 {
 	background-attachment: scroll;
 	background-size: cover
 }
-	header.masthead h1 {
-		font-size: 2rem;
-		position: relative;
-		top:-10px;
-	}
+header.masthead h1 {
+	font-size: 2rem;
+	position: relative;
+	top: -10px;
+}
 }
 
 @media (min-width:992px) {
