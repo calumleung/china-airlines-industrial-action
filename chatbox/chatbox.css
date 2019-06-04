@@ -230,7 +230,7 @@
 
   .chatbox_footer_container
   {
-	height: 50px;
+	height: 60px;
 	max-width: 720px;
 	background: #414141;
 	font-family: Microsoft JhengHei;
@@ -240,19 +240,19 @@
   
   .chatbox_input{
 	display:inline-block;
-	width:81%;
+	width:82%;
 	min-width: 60%;
 	height:35px;
 	border-radius:5px;
-	margin:5px 5px 10px 7px; 
+	margin:6px 5px 5px 17px; 
 	background: #FFFFFF;
 	vertical-align:middle;
 	padding:10px 20px;
   }
   
   .chatbox_input_button {
-	margin:5px 5px 10px 7px; 
-	padding:7px 10px;
+	margin:6px 5px 5px 7px; 
+	padding:8px 20px;
 	border: 1px solid #ffee99;
 	background-color: #ffee99;
 	box-shadow: 0px 7px 2px -5px #454545, inset 0px 0px 3px #ffffba;

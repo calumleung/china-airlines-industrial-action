@@ -135,6 +135,8 @@ function theend() {
 function again(){
      document.getElementById("cloud").style.top = "0px";
     document.getElementById("airplaneimg").style.transform = "rotate(0deg)";
+  document.getElementById("airplaneimg").style.top = "240px";
+   document.getElementById("airplaneimg").style.left = "64px";
   document.getElementById("qqq").style.display = "block";
     document.getElementById("q1").style.display = "block";
     document.getElementById("q1a").style.display = "block";
