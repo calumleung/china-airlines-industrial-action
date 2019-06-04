@@ -4,6 +4,7 @@
 	max-width: 800px;
 	width: 720px;
 	max-height: 620px;
+	border-radius: 20px;
 }
 .airplane_container {
 }
@@ -32,6 +33,7 @@
 	background: #ED6A5A;
 	height: 620px;
 	overflow: auto;
+	border-radius: 0px 20px 20px 0px;
 	
 }
 
