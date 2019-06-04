@@ -5,6 +5,7 @@
 	width: 720px;
 	max-height: 620px;
 	border-radius: 20px;
+	overflow-x: hidden;
 }
 .airplane_container {
 }
@@ -136,13 +137,13 @@
 @media(max-width:576px) {
 .gamecontainer {
 	background: #58b5da;
-	max-width: 576px;
-	width: 420px;
-	max-height: 350px;
+	max-width: 300px;
+	width: 300px;
 	border-radius: 20px;
 }
+	
 	.airplane {
-	width: 100%;
+	width: 300px;
 	height: 300px;
 	background: #58b5da;
 }
@@ -165,8 +166,11 @@
 	z-index: 100;
 	position: relative;
 	background: #ED6A5A;
-	height: 300px;
-	overflow: auto;
+	height: 500px;
+	width: 300px;
+	max-width: 576px;
+	overflow-y: auto;
+	overflow-x:hidden; 
 	border-radius: 0px 20px 20px 0px;
 }
 .react p {
