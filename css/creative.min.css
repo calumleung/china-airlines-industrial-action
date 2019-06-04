@@ -112,6 +112,18 @@ p {
 	padding: .5rem 1rem;
 	font-size: 17px;
 }
+
+.timeline-content .btn-success {
+	color: #fff;
+	background-color: #19672b;
+	border-color: #19672b
+}
+.timeline-content .btn-success:hover {
+	color: #fff;
+	background-color: #218838;
+	border-color: #1e7e34
+}
+
 .timeline-content .line {
 	display: inline;
 	position: relative;
@@ -2345,6 +2357,7 @@ a.btn.disabled, fieldset:disabled a.btn {
 	background-color: #218838;
 	border-color: #1e7e34
 }
+
 .btn-success.focus, .btn-success:focus {
 	-webkit-box-shadow: 0 0 0 .2rem rgba(72,180,97,.5);
 	box-shadow: 0 0 0 .2rem rgba(72,180,97,.5)
