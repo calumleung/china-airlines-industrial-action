@@ -63,7 +63,7 @@ function timeStop() {
 }
 
 function q1e() {
-    document.getElementById("q1").style.display = "hidden";
+    document.getElementById("q1").style.display = "none";
     document.getElementById("q1a").style.display = "none";
     document.getElementById("q1e").style.display = "block";
 }
