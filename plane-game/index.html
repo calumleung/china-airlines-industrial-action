@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="user-scalable=0">
+<meta name="viewport" content="user-scalable=no">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+<title>飛機遊戲</title>
+<link rel="stylesheet" href="airplane.css">
+<style type="text/css">
+@import url("cloud.css");
+@import url(../china-airlines-industrial-action/css/creative.css);
+@import url(../china-airlines-industrial-action/css/creative.min.css);
+
+</style>
+<script src="js/action.js"></script>
+</head>
+
+<body>
+<div class="gamecontainer">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="airplane_container">
+        <div class="score" style="float: right;">
+          <p class="score" style="padding-right: 10px;position: relative;z-index:2" >高度：<span class="score" id="score">10,000</span>公尺</p>
+        </div>
+        <div class="airplane" id="airplane"> 
+          <!--雲-->
+          <div id="cloud">
+            <div class="cloud-body" id="background-wrap">
+              <div class="x1" >
+                <div class="cloud"></div>
+              </div>
+              <div class="x6" >
+                <div class="cloud"></div>
+              </div>
+              <div class="x5">
+                <div class="cloud"></div>
+              </div>
+              <div class="x2">
+                <div class="cloud"></div>
+              </div>
+              <div class="x4">
+                <div class="cloud"></div>
+              </div>
+              <div class="x3">
+                <div class="cloud"></div>
+              </div>
+            </div>
+          </div>
+          <img src="./img/runway.png" alt="runway" id="runway" > </div>
+        <div class="img-airplane" style="position: absolute; width: 100px; height: 100px; z-index: 3; left: 30%; top: 40%;background-image:url(./img/airplane.png);" id="airplaneimg"></div>
+        <div style="position: absolute; width: 100px; height: 100px; z-index: 4; left: 10px; top: 10px;background-image:url(./img/explosion.png);" id="explosionimg"></div>
+      </div>
+    </div>
+    <div class="col-sm-7">
+      <div class="react"> 
+        <!-- 問題區 -->
+        <div class="question" id="qqq"> 
+          <!-- 第一題     -->
+          <div class="q" id="q1"> <p>Q1. 華航機師到公司報到後，就可以直接上飛機待命，不須做起飛前的準備工作。</p></div>
+          
+          <!-- 第二題     -->
+          <div class="q" id="q2"> <p>Q2. 工會要求放寬酒測值的標準（例如：將酒測標準從0.10提高至0.20）。</p></div>
+          
+          <!-- 第三題     -->
+          <div class="q" id="q3"><p>Q3. 《勞資爭議處理法》並未明訂定雇主不能因為勞工參加罷工而解僱或懲戒。</p></div>
+          
+          <!-- 第四題     -->
+          <div class="q" id="q4"> <p>Q4. 台灣現行法律有規定，勞工罷工需要提前預告。</p></div>
+          
+          <!-- 第五題     -->
+          <div class="q" id="q5"> <p>Q5. 「勞動三法」包含《工會法》、《團體協約法》、《勞資爭議法》，《勞動基準法》則不在此範疇。</p></div>
+        </div>
+        
+        <!-- 答案與解釋區 -->
+        <div class="answer"> 
+          
+          <!-- 第一題答案與解釋     -->
+          
+          <div id="q1a" onclick="q1e();">
+            <div class="qa_container">
+              <button class="btn" id="q1a1" onclick="highStart();highscore();">是</button>
+              <button class="btn" id="q1a2" onclick="lowStart();lowscore();">否</button>
+            </div>
+          </div>
+          <div class="explain" id="q1e"><p>公司報到→討論飛行計畫→起飛前準備→起飛→監視飛行→降落</p>
+            <button class="explainbutton btn" id="q1know" onclick="q2();">我知道了。來，下一題！</button>
+          </div>
+          
+          <!-- 第二題答案與解釋     -->
+          
+          <div id="q2a" onclick="q2e();">
+            <div class="qa_container">
+              <button class="btn" id="q2a1" onclick="highStart();highscore();">是</button>
+              <button class="btn" id="q2a2" onclick="lowStart();lowscore();">否</button>
+            </div>
+          </div>
+          <div class="explain" id="q2e"> 
+       <p>工會並不是要求放寬酒測值的標準，而是希望多增加驗血的程序以避免酒測結果的誤差。</p><p>其他訴求與最終協商結果如下：</p><br/>
+            <button class="explainbutton btn" id="q2know" onclick="q3();">我知道了。來，下一題！</button>
+          </div>
+          
+          <!-- 第三題答案與解釋     -->
+          
+          <div id="q3a" onclick="q3e();">
+            <div class="qa_container">
+              <button class="btn" id="q3a1" onclick="highStart();highscore();">是</button>
+              <button class="btn" id="q3a2" onclick="lowStart();lowscore();">否</button>
+            </div>
+          </div>
+          <div class="explain" id="q3e"> <p>《勞資爭議處理法》有明訂定雇主不能因為勞工參加罷工而解僱或懲戒，不過資方也握有反制勞方罷工的手段，稱為「鎖場lockout」，讓未參與罷工者也停工、不給薪資，給罷工者壓力。</p>
+		
+			  <p>台灣法律雖無「鎖場」等字眼，但2019年時長榮航空已針對空服員啟動罷工投票一事，祭出類似鎖場的反制：若罷工導致公司獲利大幅下滑、甚至虧損，參與罷工者將暫停年終獎金與年度調薪，且從罷工首日起3年，暫停員工與眷屬優惠機票直至恢復獲利為止。</p><br/>
+            <button class="explainbutton btn" id="q3know" onclick="q4();">我知道了。來，下一題！</button>
+          </div>
+          
+          <!-- 第四題答案與解釋     -->
+          
+          <div id="q4a" onclick="q4e();">
+            <div class="qa_container">
+              <button class="btn" id="q4a1" onclick="highStart();highscore();">是</button>
+              <button class="btn" id="q4a2" onclick="lowStart();lowscore();">否</button>
+            </div>
+          </div>
+          <div class="explain" id="q4e"><p>台灣現行法規中無此規定。但有不少國家有相關規定。譬如歐洲就有24個國家這樣規定，例如罷工前2日要預告的有羅馬尼亞、匈牙利為72小時；4日的有希臘；5日的則為法國、克羅埃西亞、馬斯垂克上區域管制中心（MUAC）飛航管制區內者，荷蘭為5至7日前。</p>
+			  
+			  <p>罷工前7日要預告的最多，有保加利亞、愛爾蘭、拉脫維亞、馬爾他、瑞典、英國；10日的有盧森堡、西班牙、葡萄牙（不得含假日）；義大利規定12日，明定14日的則為愛沙尼亞、芬蘭、立陶宛、波蘭； 15日的有比利時及斯洛維尼亞，丹麥則須一個月前預告。</p><br/>
+            <button class="explainbutton btn" id="q4know" onclick="q5();">我知道了。來，下一題！</button>
+          </div>
+          
+          <!-- 第五題答案與解釋     -->
+          
+          <div id="q5a" onclick="q5e();">
+            <div class="qa_container">
+              <button class="btn" id="q5a1" onclick="highStart();highscore();">是</button>
+              <button class="btn" id="q5a2" onclick="lowStart();lowscore();">否</button>
+            </div>
+          </div>
+          <div class="explain" id="q5e"> <br/>
+            <button class="explainbutton btn" id="q5know" onclick="theend();">我知道了。來，下一題！</button>
+          </div>
+          <div class="explain" id="end">結果！ <br/>
+            <br/>
+            <button class="explainbutton btn" id="again" onclick="again();">再玩一次！</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
