@@ -1,16 +1,15 @@
 ﻿/*電腦版*/
 .gamecontainer {
 	background: #58b5da;
-	max-width: 670px;
+	max-width: 800px;
+	width: 720px;
 	max-height: 620px;
 }
 .airplane_container {
-	max-width: 670px;
-	height: 620px;
 }
 .airplane {
 	height: 620px;
-	background: #58b5da;
+	width: 400px;
 }
 #runway {
 	width: 100%;
