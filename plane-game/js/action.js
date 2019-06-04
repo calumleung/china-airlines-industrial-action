@@ -70,48 +70,56 @@ function q1e() {
 }
 
 function q2() {
+  document.getElementById("qqq").style.display = "block";
     document.getElementById("q1e").style.display = "none";
     document.getElementById("q2").style.display = "block";
     document.getElementById("q2a").style.display = "block";
 }
 
 function q2e() {
+  document.getElementById("qqq").style.display = "none";
     document.getElementById("q2").style.display = "none";
     document.getElementById("q2a").style.display = "none";
     document.getElementById("q2e").style.display = "block";
 }
 
 function q3() {
+  document.getElementById("qqq").style.display = "block";
     document.getElementById("q2e").style.display = "none";
     document.getElementById("q3").style.display = "block";
     document.getElementById("q3a").style.display = "block";
 }
 
 function q3e() {
+  document.getElementById("qqq").style.display = "none";
     document.getElementById("q3").style.display = "none";
     document.getElementById("q3a").style.display = "none";
     document.getElementById("q3e").style.display = "block";
 }
 
 function q4() {
+  document.getElementById("qqq").style.display = "block";
     document.getElementById("q3e").style.display = "none";
     document.getElementById("q4").style.display = "block";
     document.getElementById("q4a").style.display = "block";
 }
 
 function q4e() {
+  document.getElementById("qqq").style.display = "none";
     document.getElementById("q4").style.display = "none";
     document.getElementById("q4a").style.display = "none";
     document.getElementById("q4e").style.display = "block";
 }
 
 function q5() {
+  document.getElementById("qqq").style.display = "block";
     document.getElementById("q4e").style.display = "none";
     document.getElementById("q5").style.display = "block";
     document.getElementById("q5a").style.display = "block";
 }
 
 function q5e() {
+  document.getElementById("qqq").style.display = "none";
     document.getElementById("q5").style.display = "none";
     document.getElementById("q5a").style.display = "none";
     document.getElementById("q5e").style.display = "block";
