@@ -1,25 +1,24 @@
 ﻿/* width */
 .chatbox_body::-webkit-scrollbar {
-	width: 10px;
-  }
+ width: 10px;
+}
   
   /* Track */
   .chatbox_body::-webkit-scrollbar-track {
-	background: #0088a8;
-  }
+ background: #0088a8;
+}
   
   /* Handle */
   .chatbox_body::-webkit-scrollbar-thumb {
-	background: #ffee99;
-	border-radius: 5px;
-  }
+ background: #ffee99;
+ border-radius: 5px;
+}
   
   /* Handle on hover */
   .chatbox_body::-webkit-scrollbar-thumb:hover {
-	background: #ffc8b4;
-  }
-  
-  .chatbox_body {
+ background: #ffc8b4;
+}
+.chatbox_body {
 	height: 500px;
 	max-width: 720px;
 	background: #00aaaa;
@@ -29,10 +28,48 @@
 	margin: 0 auto;
 	color: #414141;
 	border-radius: 20px 20px 0px 0px;
-	
-  }
-  
-  /* 還在寫 .chatbox_start{
+}
+
+/*手機版*/
+@media(max-width:576px) {
+.chatbox_body {
+	height: 500px;
+	min-width: 300px;
+	width: 350px;
+	background: #00aaaa;
+	overflow: auto;
+	font-family: Microsoft JhengHei;
+	padding: 30px 5px;
+	margin: 0 auto;
+	color: #414141;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.chatbox_footer_container {
+	height: 60px;
+	width: 350px;
+	background: #414141;
+	font-family: Microsoft JhengHei;
+	padding: 5px 5px;
+	margin: 0 auto;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.chatbox_input {
+	display: inline-block;
+	width: 35%!important;
+	height: 35px;
+	border-radius: 5px;
+	margin: 6px 5px 5px 18px;
+	background: #FFFFFF;
+	vertical-align: middle;
+	padding: 10px 20px;
+	}
+.chatbox_input_button {
+	width: 25%;
+}	
+}
+/* 還在寫 .chatbox_start{
 	  width:100%;
 	margin: 0 auto;
   }
@@ -43,13 +80,12 @@
 	display: inline-block;
   } */
   
-  .chatbox_ask_container {
+.chatbox_ask_container {
 	width: 100;
 	background-color: #00aaaa;
 	padding: 30px 10px;
-  }
-	
-  .chatbox_ask {
+}
+.chatbox_ask {
 	padding: 10px 15px;
 	border: 1px solid #ffee99;
 	background-color: #ffee99;
@@ -65,34 +101,29 @@
 	cursor: pointer;
 	float: right;
 	font-size: 15px;
-	margin-bottom:10%;
-  }
-  
-  .chatbox_ask:hover {
+	margin-bottom: 10%;
+}
+.chatbox_ask:hover {
 	background: none;
 	background-color: #ffc8b4;
 	box-shadow: 0px 0px 5px 0px #aaaaaa;
 	border: 2px solid #ffffff;
-  }
-  
-  .chatbox_ask:active {
+}
+.chatbox_ask:active {
 	top: 1px;
 	position: relative;
-  }
-  
-  .chatbox_character {
+}
+.chatbox_character {
 	width: 40px;
 	height: 40px;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 8px;
-  }
-  
-  .chatbox_who {
+}
+.chatbox_who {
 	font-size: 0.8em;
-  }
-  
-  .chatbox_bubble {
+}
+.chatbox_bubble {
 	background: #fff;
 	border-radius: 20px;
 	padding: 10px 15px;
@@ -100,137 +131,114 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 40px;
-  }
-	
-	.chatbox_elfimg{
-		width:100%;
-	}
-
-  @keyframes showOpacity {
-	from {
-	  opacity: 0;
-	}
-	to {
-	  opacity: 1;
-	}
-  }
-  
-  .chatbox_bubble_container1 {
+}
+.chatbox_elfimg {
+	width: 100%;
+}
+ @keyframes showOpacity {
+ from {
+ opacity: 0;
+}
+ to {
+ opacity: 1;
+}
+}
+.chatbox_bubble_container1 {
 	padding: 5px 20px;
 	display: none;
 	animation-name: showOpacity;
 	animation-duration: 1s;
-  }
-  
-  .chatbox_bubble_container2 {
+}
+.chatbox_bubble_container2 {
 	padding: 5px 20px;
 	display: none;
 	animation-name: showOpacity;
 	animation-duration: 1s;
-  }
-  
-  .chatbox_bubble_container3 {
+}
+.chatbox_bubble_container3 {
 	padding: 5px 20px;
 	display: none;
 	animation-name: showOpacity;
 	animation-duration: 1s;
-  }
-  
-  .chatbox_bubble_container4 {
+}
+.chatbox_bubble_container4 {
 	padding: 5px 20px;
 	display: none;
 	animation-name: showOpacity;
 	animation-duration: 1s;
-  }
-  
-  .chatbox_bubble_container5 {
+}
+.chatbox_bubble_container5 {
 	padding: 5px 20px;
 	display: none;
 	animation-name: showOpacity;
 	animation-duration: 1s;
-  }
-  
-  .chatbox_bubble_container6 {
+}
+.chatbox_bubble_container6 {
 	padding: 5px 20px;
-	margin:0 auto;
+	margin: 0 auto;
 	display: none;
 	animation-name: showOpacity;
 	animation-duration: 1s;
-  }
-  
-  #chat1{
-	  display: none;
-  }
-  
-  #chat2 {
+}
+#chat1 {
 	display: none;
-  }
-  
-  #chat3 {
+}
+#chat2 {
 	display: none;
-  }
-  
-  #chat4 {
+}
+#chat3 {
 	display: none;
-  }
-  
-  #chat5 {
+}
+#chat4 {
 	display: none;
-  }
-  
-  #chat6 {
+}
+#chat5 {
 	display: none;
-  }
-  
-	.chatbox_end {
-		padding: 10px 15px;
-		border: 1px solid #ffc8b4;
-		background-color: #ffc8b4;
-		box-shadow: 0px 7px 2px -5px #454545, inset 0px 0px 3px #ffffba;
-		border-radius: 20px;
-		color: #262626;
-		font-family: "微軟正黑體";
-		text-decoration: none;
-		font-weight: bold;
-		-webkit-transition: 0.2s;
-		-moz-transition: 0.2s;
-		-o-transition: 0.2s;
-		cursor: pointer;
-		float: right;
-		font-size: 15px;
-	}
-	
-	.chatbox_end:hover {
-		background: none;
-		background-color: #ffee99;
-		box-shadow: 0px 0px 5px 0px #aaaaaa;
-		border: 2px solid #ffffff;
-	}
-	
-	.chatbox_end:active {
-		top: 1px;
-		position: relative;
-	}
-	
-	#chat_end1{
-		margin: 10% 4% 10% 1%;
-	}
-	
-	#chat_end2{
-		margin: 10% 1%  10% 1%;
-	}
-	
-	#chat_end3{
-		margin:10% 1%  10% 1%;
-	}
-	
-	/* 輸入框區 */
+}
+#chat6 {
+	display: none;
+}
+.chatbox_end {
+	padding: 10px 15px;
+	border: 1px solid #ffc8b4;
+	background-color: #ffc8b4;
+	box-shadow: 0px 7px 2px -5px #454545, inset 0px 0px 3px #ffffba;
+	border-radius: 20px;
+	color: #262626;
+	font-family: "微軟正黑體";
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	cursor: pointer;
+	float: right;
+	font-size: 15px;
+}
+.chatbox_end:hover {
+	background: none;
+	background-color: #ffee99;
+	box-shadow: 0px 0px 5px 0px #aaaaaa;
+	border: 2px solid #ffffff;
+}
+.chatbox_end:active {
+	top: 1px;
+	position: relative;
+}
+#chat_end1 {
+	margin: 10% 4% 10% 1%;
+}
+#chat_end2 {
+	margin: 10% 1% 10% 1%;
+}
+#chat_end3 {
+	margin: 10% 1% 10% 1%;
+}
+/* 輸入框區 */
 	/* 輸入框區 */
 	/* 輸入框區 */
 
-
-  .chatbox_footer_container
-  {
+.chatbox_footer_container {
 	height: 60px;
 	max-width: 720px;
 	background: #414141;
@@ -238,23 +246,21 @@
 	padding: 5px 5px;
 	margin: 0 auto;
 	border-radius: 0px 0px 20px 20px;
-  }
-  
-  .chatbox_input{
-	display:inline-block;
-	width:82%;
+}
+.chatbox_input {
+	display: inline-block;
+	width: 82%;
 	min-width: 60%;
-	height:35px;
-	border-radius:5px;
-	margin:6px 5px 5px 18px; 
+	height: 35px;
+	border-radius: 5px;
+	margin: 6px 5px 5px 18px;
 	background: #FFFFFF;
-	vertical-align:middle;
-	padding:10px 20px;
-  }
-  
-  .chatbox_input_button {
-	margin:6px 5px 5px 7px; 
-	padding:8px 20px;
+	vertical-align: middle;
+	padding: 10px 20px;
+}
+.chatbox_input_button {
+	margin: 6px 5px 5px 7px;
+	padding: 8px 20px;
 	border: 1px solid #ffee99;
 	background-color: #ffee99;
 	box-shadow: 0px 7px 2px -5px #454545, inset 0px 0px 3px #ffffba;
@@ -268,105 +274,85 @@
 	-o-transition: 0.2s;
 	cursor: pointer;
 	font-size: 1em;
-	vertical-align:middle;
-  }
-  
-  .chatbox_input_button:hover {
+	vertical-align: middle;
+}
+.chatbox_input_button:hover {
 	background: none;
 	background-color: #ffc8b4;
 	box-shadow: 0px 0px 5px 0px #aaaaaa;
 	border: 2px solid #ffffff;
-  }
-  
-  .chatbox_input_button:active {
+}
+.chatbox_input_button:active {
 	top: 1px;
 	position: relative;
-  }
-  
-  @keyframes typing {
-	from { width: 0 }
-  }
-  
-  @keyframes caret {
-	50% { border-color: transparent; }
-	
-  }
-
+}
+ @keyframes typing {
+ from {
+width: 0
+}
+}
+ @keyframes caret {
+ 50% {
+border-color: transparent;
+}
+}
 .chatbox_word {
 	color: #000
 }
-  
-  #chatbox_word1 {
+#chatbox_word1 {
 	width: 12em;
 	border-right: .05em solid;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 3s steps(12),
-	  caret 1s steps(1) infinite;
-  }
-  
-  #chatbox_word2 {
+	animation: typing 3s steps(12),  caret 1s steps(1) infinite;
+}
+#chatbox_word2 {
 	width: 11em;
 	border-right: .05em solid;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 3s steps(11),
-	  caret 1s steps(1) infinite;
-  }
-  
-  #chatbox_word3 {
+	animation: typing 3s steps(11),  caret 1s steps(1) infinite;
+}
+#chatbox_word3 {
 	width: 15em;
 	border-right: .05em solid;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 3s steps(15),
-	  caret 1s steps(1) infinite;
-  }
-  
-  #chatbox_word4 {
+	animation: typing 3s steps(15),  caret 1s steps(1) infinite;
+}
+#chatbox_word4 {
 	width: 21em;
 	border-right: .05em solid;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 3s steps(21),
-	  caret 1s steps(1) infinite;
-  }
-  
-  
-  #chatbox_word5 {
+	animation: typing 3s steps(21),  caret 1s steps(1) infinite;
+}
+#chatbox_word5 {
 	width: 22em;
 	border-right: .05em solid;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 3s steps(22),
-	  caret 1s steps(1) infinite;
-  }
-  
-  #chatbox_word6 {
+	animation: typing 3s steps(22),  caret 1s steps(1) infinite;
+}
+#chatbox_word6 {
 	width: 13em;
 	border-right: .05em solid;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 3s steps(13),
-	  caret 1s steps(1) infinite;
-  }
-  
-  #chatbox_footer2{
-	display:none;
-  }
-  
-  #chatbox_footer3{
-	display:none;
-  }
-  
-  #chatbox_footer4{
-	display:none;
-  }
-  
-  #chatbox_footer5{
-	display:none;
-  }
-  
-  #chatbox_footer6{
-	display:none;
-  }
+	animation: typing 3s steps(13),  caret 1s steps(1) infinite;
+}
+#chatbox_footer2 {
+	display: none;
+}
+#chatbox_footer3 {
+	display: none;
+}
+#chatbox_footer4 {
+	display: none;
+}
+#chatbox_footer5 {
+	display: none;
+}
+#chatbox_footer6 {
+	display: none;
+}

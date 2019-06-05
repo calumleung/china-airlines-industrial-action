@@ -134,17 +134,18 @@
 	padding: 0px 20px;
 }
 
+/*手機版*/
 @media(max-width:576px) {
 .gamecontainer {
 	background: #58b5da;
-	max-width: 500px;
-	width: 500px;
+	min-width:  300px;
+	width: 350px;
 	border-radius: 20px;
 	justify-content: center;
 }
 	
 	.airplane {
-	width: 500px;
+	width: 350px;
 	height: 300px;
 	background: #58b5da;
 	overflow: hidden;
@@ -169,8 +170,8 @@
 	position: relative;
 	background: #ED6A5A;
 	height: 300px;
-	width: 500px;
-	max-width: 576px;
+	width: 350px;
+	min-width: 300px;
 	overflow-y: auto;
 	overflow-x:hidden; 
 	border-radius: 0px 20px 20px 0px;
@@ -192,7 +193,7 @@
 	display: inline-block;
 	width: 70%;
 	height: 50px;
-	margin: 4px 0px;
+	margin: .5rem 0px;
 	vertical-align: middle;
 }
 .qa_container .btn {
