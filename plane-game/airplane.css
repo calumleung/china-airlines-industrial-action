@@ -137,15 +137,17 @@
 @media(max-width:576px) {
 .gamecontainer {
 	background: #58b5da;
-	max-width: 300px;
-	width: 300px;
+	max-width: 500px;
+	width: 500px;
 	border-radius: 20px;
+	justify-content: center;
 }
 	
 	.airplane {
-	width: 300px;
+	width: 500px;
 	height: 300px;
 	background: #58b5da;
+	overflow: hidden;
 }
 .question {
 	text-align: left;
@@ -166,8 +168,8 @@
 	z-index: 100;
 	position: relative;
 	background: #ED6A5A;
-	height: 500px;
-	width: 300px;
+	height: 300px;
+	width: 500px;
 	max-width: 576px;
 	overflow-y: auto;
 	overflow-x:hidden; 
