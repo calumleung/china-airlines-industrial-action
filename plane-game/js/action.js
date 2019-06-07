@@ -3,9 +3,6 @@ if(window.screen.width < 480)
 {
   document.getElementById("airplaneimg").style.top = "150px";
   document.getElementById("airplaneimg").style.left = "100px";
-  alert('這是手機')
-  console.log('這是手機')
-}
 }
 
 var n = 0;
@@ -146,12 +143,10 @@ function again(){
   if(window.screen.width < 480){
       document.getElementById("airplaneimg").style.top = "150px";
    document.getElementById("airplaneimg").style.left = "100px";
-    alert('這是手機的Again')
   }
   else{
       document.getElementById("airplaneimg").style.top = "240px";
    document.getElementById("airplaneimg").style.left = "64px";
-    alert('這是電腦的Again')
   }
      document.getElementById("cloud").style.top = "0px";
     document.getElementById("airplaneimg").style.transform = "rotate(0deg)";
