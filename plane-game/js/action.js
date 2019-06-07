@@ -1,3 +1,5 @@
+console.log('這是手機!!!!')
+
 if(window.screen.width < 480)
 {
   document.getElementById("airplaneimg").style.top = "150px";
