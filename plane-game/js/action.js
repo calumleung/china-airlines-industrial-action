@@ -7,6 +7,7 @@ if(window.screen.width < 480)
   document.getElementById("explosionimg").style.left = "100px";
   console.log('更新')
 }
+}
 
 var n = 0;
 var score = 10000;
