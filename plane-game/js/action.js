@@ -2,6 +2,7 @@ if(window.screen.width < 480)
 {
   document.getElementById("airplaneimg").style.top = "150px";
   document.getElementById("airplaneimg").style.left = "70px";
+  alert('這是手機')
 }
 
 var n = 0;
