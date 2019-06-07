@@ -3,6 +3,9 @@ if(window.screen.width < 480)
 {
   document.getElementById("airplaneimg").style.top = "150px";
   document.getElementById("airplaneimg").style.left = "100px";
+  document.getElementById("explosionimg").style.top = "300px";
+  document.getElementById("explosionimg").style.left = "100px";
+  console.log('更新')
 }
 
 var n = 0;
