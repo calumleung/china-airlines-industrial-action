@@ -5,7 +5,7 @@ if(window.screen.width < 480)
   document.getElementById("airplaneimg").style.left = "100px";
   document.getElementById("explosionimg").style.top = "300px";
   document.getElementById("explosionimg").style.left = "100px";
-  console.log('更新')
+  console.log('更新2')
 }
 }
 
@@ -25,8 +25,13 @@ function highscore() {
   document.getElementById("score").innerHTML=score;
   document.getElementById("airplaneimg").style.transform = "rotate(15deg)";
   if (score===0){
+    if(window.screen.width < 480){
+  document.getElementById("explosionimg").style.display = "block";
+    }
+    else{
   document.getElementById("runway").style.display = "block";
   document.getElementById("explosionimg").style.display = "block";
+      }
   }
 }
 
