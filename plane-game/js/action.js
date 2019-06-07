@@ -1,3 +1,9 @@
+if(window.screen.width < 480)
+{
+  document.getElementById("airplaneimg").style.top = "150px";
+  document.getElementById("airplaneimg").style.left = "70px";
+}
+
 var n = 0;
 var score = 10000;
 
