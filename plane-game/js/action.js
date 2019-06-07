@@ -5,7 +5,7 @@ if(window.screen.width < 480)
   document.getElementById("airplaneimg").style.left = "100px";
   alert('這是手機')
   console.log('這是手機')
-  function again(){
+  function again1(){
     alert('再一次')
      document.getElementById("cloud").style.top = "0px";
     document.getElementById("airplaneimg").style.transform = "rotate(0deg)";
