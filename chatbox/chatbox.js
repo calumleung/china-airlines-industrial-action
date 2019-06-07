@@ -21,7 +21,7 @@ function add1() {
       document.getElementById("chatbox_footer2").style.display = "block";
       clearInterval(timeId);
     }
-  }, 1000);
+  }, 1500);
 }
 
 function add2() {
@@ -42,7 +42,7 @@ function add2() {
       document.getElementById("chatbox_footer3").style.display = "block";
       clearInterval(timeId);
     }
-  }, 1000);
+  }, 3000);
 }
 
 function add3() {
@@ -63,7 +63,7 @@ function add3() {
       document.getElementById("chatbox_footer4").style.display = "block";
       clearInterval(timeId);
     }
-  }, 1000);
+  }, 3000);
 }
 
 function add4() {
@@ -84,7 +84,7 @@ function add4() {
       document.getElementById("chatbox_footer5").style.display = "block";
       clearInterval(timeId);
     }
-  }, 1000);
+  }, 3000);
 }
 
 function add5() {
@@ -105,7 +105,7 @@ function add5() {
       document.getElementById("chatbox_footer6").style.display = "block";
       clearInterval(timeId);
     }
-  }, 1000);
+  }, 3000);
 }
 
 function add6() {
@@ -125,5 +125,5 @@ function add6() {
       document.getElementById("chatbox_word6").style.display = "none";
       clearInterval(timeId);
     }
-  }, 1000);
+  }, 3000);
 }
