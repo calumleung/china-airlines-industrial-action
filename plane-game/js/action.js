@@ -1,4 +1,3 @@
-console.log('這是手機喔喔喔喔')
 function phone(){
 if(window.screen.width < 480)
 {
