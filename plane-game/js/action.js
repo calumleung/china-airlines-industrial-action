@@ -2,9 +2,26 @@ function phone(){
 if(window.screen.width < 480)
 {
   document.getElementById("airplaneimg").style.top = "150px";
-  document.getElementById("airplaneimg").style.left = "70px";
+  document.getElementById("airplaneimg").style.left = "100px";
   alert('這是手機')
   console.log('這是手機')
+  function again(){
+    alert('再一次')
+     document.getElementById("cloud").style.top = "0px";
+    document.getElementById("airplaneimg").style.transform = "rotate(0deg)";
+  document.getElementById("airplaneimg").style.top = "150px";
+   document.getElementById("airplaneimg").style.left = "100px";
+  document.getElementById("qqq").style.display = "block";
+    document.getElementById("q1").style.display = "block";
+    document.getElementById("q1a").style.display = "block";
+    document.getElementById("end").style.display = "none";
+    document.getElementById("again").style.display = "none";
+    document.getElementById("explosionimg").style.display = "none";
+    document.getElementById("runway").style.display = "none";
+    score=10000;
+    document.getElementById("score").innerHTML=score;
+//     score.innerHTML="(" + score + ")";
+}
 }
 }
 
