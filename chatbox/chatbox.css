@@ -68,9 +68,6 @@
 .chatbox_input_button {
 	width: 25%;
 }	
-.chatbox_ask {
-	margin-bottom: 0%;
-}
 }
 /* 還在寫 .chatbox_start{
 	  width:100%;
@@ -104,7 +101,7 @@
 	cursor: pointer;
 	float: right;
 	font-size: 15px;
-	margin-bottom: 10%;
+	margin-bottom: 0%;
 }
 .chatbox_ask:hover {
 	background: none;
