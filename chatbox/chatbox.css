@@ -182,6 +182,7 @@
 }
 #chat1 {
 	display: none;
+	margin:5px;
 }
 #chat2 {
 	display: none;
