@@ -19,8 +19,8 @@ function add1() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       document.getElementById("chatbox_footer1").style.display = "none";
       document.getElementById("chatbox_footer2").style.display = "block";
@@ -40,8 +40,8 @@ function add2() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       document.getElementById("chatbox_footer2").style.display = "none";
       document.getElementById("chatbox_footer3").style.display = "block";
@@ -61,8 +61,8 @@ function add3() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       document.getElementById("chatbox_footer3").style.display = "none";
       document.getElementById("chatbox_footer4").style.display = "block";
@@ -95,8 +95,8 @@ function add4() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       document.getElementById("chatbox_footer4").style.display = "none";
       document.getElementById("chatbox_footer5").style.display = "block";
@@ -128,8 +128,8 @@ function add5() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       document.getElementById("chatbox_footer5").style.display = "none";
       document.getElementById("chatbox_footer6").style.display = "block";
@@ -157,8 +157,8 @@ function add7() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       clearInterval(timeId);
     }
@@ -179,8 +179,8 @@ function add8() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       clearInterval(timeId);
     }
@@ -200,8 +200,8 @@ function add9() {
     items[count].style.display = "block";
     count++;
     console.log(count);
-    // var chatbox = document.getElementsByClassName("chatbox_body")[0];
-    // chatbox.scrollTop = chatbox.scrollHeight;
+    var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
       clearInterval(timeId);
     }
