@@ -181,9 +181,11 @@
 	animation-name: showOpacity;
 	animation-duration: 1s;
 }
+#chatchat1{
+	margin-bottom:0%;
+}
 #chat1 {
 	display: none;
-	margin-bottom:0%;
 }
 #chat2 {
 	display: none;
