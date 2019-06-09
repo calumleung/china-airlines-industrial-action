@@ -122,6 +122,7 @@
 }
 .chatbox_who {
 	font-size: 0.8em;
+	margin-top: 5px;
 }
 .chatbox_bubble {
 	background: #fff;
@@ -182,7 +183,6 @@
 }
 #chat1 {
 	display: none;
-	margin:5px;
 }
 #chat2 {
 	display: none;
