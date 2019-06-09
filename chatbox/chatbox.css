@@ -30,11 +30,52 @@
 	color: #414141;
 	border-radius: 20px 20px 0px 0px;
 }
+/* 通知畫面*/
+.chatbox_notification{
+	width:100%;
+  margin: 0 auto;
+}
+
+.chatbox_notificationimg{
+  width:46%;
+  margin-left:27%;
+  margin-top:20%;
+}
+
+.chatbox_noticeok {
+  max-width: 60%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #00AAAA;
+  font-family: "微軟正黑體";
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding:10px 120px;
+  position: absolute;
+  right:31%;
+  bottom:28.5%;
+}
+.chatbox_noticeok:hover {
+  background: none;
+  background-color: #ffee99;
+  border: 2px solid #ffffff;
+}
+
+/* 通知畫面*/
+
+
 
 /* 開始畫面*/
 .chatbox_start{
 	  width:100%;
 	margin: 0 auto;
+	display:none;
   }
   
 .chatbox_linegroup{
@@ -445,6 +486,18 @@ border-color: transparent;
 		  bottom:19%;
 	  }
 
+	  .chatbox_notificationimg{
+		width:90%;
+		margin-left:5%;
+		margin-top:38%;
+	  }
+
+	  .chatbox_noticeok{
+
+		  padding:10px 80px;
+		  right:22%;
+		  bottom:30.2%;
+	  }
 
 
 

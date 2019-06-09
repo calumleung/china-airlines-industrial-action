@@ -1,5 +1,9 @@
 // JavaScript Document
 
+function notice(){
+  document.getElementById("chatbox_notification").style.display = "none";
+  document.getElementById("chatbox_start").style.display = "block";
+} 
 
 function join(){
   document.getElementById("chatbox_start").style.display = "none";
