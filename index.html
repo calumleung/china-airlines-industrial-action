@@ -60,7 +60,7 @@
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#about">專題介紹</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#chatbox">與機師、華航對話</a> </li>
-        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#timeline">罷工大事記</a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#timeline">華航罷工大事記</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#game">考考你</a> </li>
 		<li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#conclusion">再思勞權</a> </li>
 		<li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#feedback">你的看法</a> </li>
@@ -103,6 +103,11 @@
         <h2 class="text-dark mt-0 text-center">跟華航、機師聊一聊</h2>
         <hr class="divider dark my-4"> 
 		<div class="chatbox_body">
+  <!-- 通知 -->
+  <div class="chatbox_notification" id="chatbox_notification">
+      <img src="chatbox/img/notification.png" alt="" class="chatbox_notificationimg">
+      <button class="chatbox_noticeok"  onclick="notice();">確 定</button>
+   </div>
       <!-- 加入群組 -->
  <div class="chatbox_start" id="chatbox_start">
    <img src="chatbox/img/linegroup.png" alt="" class="chatbox_linegroup">
@@ -391,7 +396,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <h2 class="text-dark mt-0 text-center">罷工大事記</h2>
+        <h2 class="text-dark mt-0 text-center">華航罷工大事記</h2>
         <hr class="divider dark my-4">
 		
 		<p style="display: inline;padding-right: 1rem "><i class="fas fa-square" style="color: #000"></i>：一般大事</p> <p style="display: inline;padding-right: 1rem "><i class="fas fa-square" style="color: #ED6A5A"></i>：華航罷工重要大事</p><p style="display: inline;padding-right: 1rem "><i class="fas fa-square" style="color: #218838"></i>：與長榮罷工相關</p>
@@ -400,7 +405,7 @@
 
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t1()" style="text-align: left;">2015年4月26日｜以華航機師為主的桃園機師工會，通過罷工投票<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"><i class="fas fa-search-plus" style="color: #fff"></i></button>
+              <button type="button" class="btn btn-dark" onclick="t1()" style="text-align: left;">2015年4月26日｜以華航機師為主的桃園機師工會，通過罷工投票<img src=""><i class="fas fa-search-plus" style="color: #fff"></i></button>
               <div class="timeline-collapse" id="t1" style="display:none">
                 <div class="comment">
                   <p>・經過：670位會員中有596名投票贊成罷工、2名廢票。</p>
@@ -411,7 +416,7 @@
           </div>
           <div class="timeline" >
             <div class="line">
-              <button type="button" class="btn btn-dark" onclick="t2()" style="text-align: left;">2016年5月5日｜中華航空公司變更勞動條件引爭議<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t2()" style="text-align: left;">2016年5月5日｜中華航空公司變更勞動條件引爭議<i class="fas fa-plus-circle"></i></button>
               <div class="timeline-collapse" id="t2" style="display:none">
                 <div class="comment">
                   <p>・具體內容：中華航空公司依照公司既定政策而宣布從6月1日開始，空中服務員的報到地點從臺北市松山區變更為桃園市總部，並片面要求簽署基於《勞動基準法》第84條之1項的責任制約定書</p>
@@ -421,7 +426,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-danger" onclick="t3()" style="text-align: left;">2016年6月23日｜桃空職工宣布所屬中華航空的空服員24日凌晨0時起發動罷工行動<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-danger" onclick="t3()" style="text-align: left;">2016年6月23日｜桃空職工宣布所屬中華航空的空服員24日凌晨0時起發動罷工行動</button>
               <div class="timeline-collapse" id="t3" style="display:none">
                 <div class="comment">
                   <p>・訴求：</p>
@@ -438,7 +443,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-danger" onclick="t4()" style="text-align: left;">2016年6月24日晚上九點｜經過4小時半協商，勞方提出的7項訴求皆已達成初步共識<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-danger" onclick="t4()" style="text-align: left;">2016年6月24日晚上九點｜經過4小時半協商，勞方提出的7項訴求皆已達成初步共識<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t4" style="display:none">
                 <div class="comment">
                   <p>10點45分，罷工封鎖線撤除</p>
@@ -456,7 +461,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t5()" style="text-align: left;">2017年4月起｜長榮空服員與資方進行團體協約協商<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t5()" style="text-align: left;">2017年4月起｜長榮空服員與資方進行團體協約協商<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t5" style="display:none">
                 <div class="comment">
                   <p>經過：歷經20次團協會議與2次調解會議，工會提出改善管理事項、過勞航班等訴求均未達共識。</p>
@@ -466,7 +471,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t6()" style="text-align: left;">2018年6月27日｜由桃園市機師職業工會宣布舉行罷工投票<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t6()" style="text-align: left;">2018年6月27日｜由桃園市機師職業工會宣布舉行罷工投票<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t6" style="display:none">
                 <div class="comment">
                   <p>・原因：機師不滿過勞；勞資權益調解失敗</p>
@@ -476,7 +481,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t7()" style="text-align: left;">2018年8月7日｜機師工會確定取得合法罷工權<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t7()" style="text-align: left;">2018年8月7日｜機師工會確定取得合法罷工權<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t7" style="display:none">
                 <div class="comment">
                   <p>・經過：經過：機師工會就罷工投票開票，投票率84.9%，其中有1,187名機師會員贊成罷工（支持率97.9%）通過。桃園市機師職業工會訂在8月下旬前，若資方未能協商，便在8月20日宣布罷工期程。儘管保證不利用總統出訪時機，但工會不排除中秋節連假罷工，且會有至少3天的預告期。</p>
@@ -489,7 +494,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t8()" style="text-align: left;">2018年8月30日｜機師工會宣布勞資雙方達成核心訴求的初步共識<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t8()" style="text-align: left;">2018年8月30日｜機師工會宣布勞資雙方達成核心訴求的初步共識<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t8" style="display:none">
                 <div class="comment">
                   <p>・經過：1年內暫緩中華航空、長榮航空機師罷工，並在同時間完成協商。</p>
@@ -500,7 +505,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t9()" style="text-align: left;">2018年11月29日，桃空職工宣布終止與長榮的團體協約協商<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t9()" style="text-align: left;">2018年11月29日，桃空職工宣布終止與長榮的團體協約協商<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t9" style="display:none">
                 <div class="comment">
                   <p>・桃空職工指出，針對三大訴求增加外站休時、提高會員外站津貼（禁搭便車條款）與保障年休123天，勞資雙方歧見過大難達共識，雖然長榮資方一再強調有誠意協商，卻大力遊說政府另立專法，讓超時航班就地合法，讓空服員更過勞。</p>
@@ -510,7 +515,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t10()" style="text-align: left;">2019年2月1日｜機師工會通過重啟中華航空的機師罷工，並不排除春節行動<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t10()" style="text-align: left;">2019年2月1日｜機師工會通過重啟中華航空的機師罷工，並不排除春節行動<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t10" style="display:none">
                 <div class="comment"> </div>
               </div>
@@ -518,10 +523,10 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-danger" onclick="t11()" style="text-align: left;">2019年2月8日上午6時｜桃園市機師職業工會中華航空分會啟動機師罷工。<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-danger" onclick="t11()" style="text-align: left;">2019年2月8日上午6時｜桃園市機師職業工會中華航空分會啟動機師罷工。<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t11" style="display:none">
                 <div class="comment">
-                  <p> ・經過：其中工會要求機師會員響應繳交檢定證，並在臺北松山機場、臺灣桃園國際機場、高雄國際機場設有收件處。最初繳交檢定證的機師僅低調快閃，但隨著參與機師持續增加，工會很快收到破百件檢定證，這也讓影響層面再擴大。上午9時，工會批評資方惡劣抹黑，並要求改善疲勞航班。隨後工會發布公開信，指出有五大訴求，並希望社會大眾支持。<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></p>
+                  <p> ・經過：其中工會要求機師會員響應繳交檢定證，並在臺北松山機場、臺灣桃園國際機場、高雄國際機場設有收件處。最初繳交檢定證的機師僅低調快閃，但隨著參與機師持續增加，工會很快收到破百件檢定證，這也讓影響層面再擴大。上午9時，工會批評資方惡劣抹黑，並要求改善疲勞航班。隨後工會發布公開信，指出有五大訴求，並希望社會大眾支持。<i class="fas fa-search-plus"></i></p>
                   <p>・訴求：</p>
                   <p>1. 疲勞航班 </p>
                   <p>2. 保障本國籍機師工作權和升遷制度公開透明 </p>
@@ -535,7 +540,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-danger" onclick="t12()" style="text-align: left;">2019年2月14日晚間10時｜5大訴求完成勞資協商，機師工會宣布，10時25分停止罷工。<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-danger" onclick="t12()" style="text-align: left;">2019年2月14日晚間10時｜5大訴求完成勞資協商，機師工會宣布，10時25分停止罷工。<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t12" style="display:none">
                 <div class="comment">
                   <p> ・成果： </p>
@@ -554,7 +559,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t13()" style="text-align: left;">2019年3月5日｜桃空職工與長榮航空第1次調解失敗<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t13()" style="text-align: left;">2019年3月5日｜桃空職工與長榮航空第1次調解失敗<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t13" style="display:none">
                 <div class="comment">
                   <p> 雙方就工資、工會、管理等12項訴求展開協商</p>
@@ -565,7 +570,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-dark" onclick="t14()" style="text-align: left;">2019年3月6日｜桃園市空服員職業工會提告華航搭便車，一審失敗<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-dark" onclick="t14()" style="text-align: left;">2019年3月6日｜桃園市空服員職業工會提告華航搭便車，一審失敗<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t14" style="display:none">
                 <div class="comment">
                   <p> ・經過：桃園市空服員職業工會因華航不履行禁搭便車而對其提告，但台北地方法院認為該次罷工所簽訂的協議因有第三人在場，依團體協約法規定不能為團體協約。若非團體協約，則不能以禁搭便車限制第三人權益，當時簽訂的禁搭便車條款並沒有效力。</p>
@@ -575,7 +580,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t15()" style="text-align: left;">2019年4月9日｜桃空職工與長榮航空進行第2次勞資調解失敗<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t15()" style="text-align: left;">2019年4月9日｜桃空職工與長榮航空進行第2次勞資調解失敗<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t15" style="display:none">
                 <div class="comment">
                   <p> 雙方約定在就「調高日支費（外站津貼）」、「改善疲勞航班」、「勞工董事參與決策」、「禁搭便車」4項訴求做優先討論</p>
@@ -585,7 +590,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t16()" style="text-align: left;">2019年4月17日｜桃空職工與長榮航空進行第 3 次勞資調解失敗<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t16()" style="text-align: left;">2019年4月17日｜桃空職工與長榮航空進行第 3 次勞資調解失敗<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t16" style="display:none">
                 <div class="comment">
                   <p> 工會表示，對於改善過勞航班、調高外站津貼且非會員不得適用等議題，雙方想法仍存在相當大的差異，因此勞資爭議調解破局，工會在本周五前與會員討論後，再決定下一步行動，也不排除發起罷工投票。</p>
@@ -595,7 +600,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t17()" style="text-align: left;">2019年5月8日｜長榮航空發出停發年終、禁員工優待票公告<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t17()" style="text-align: left;">2019年5月8日｜長榮航空發出停發年終、禁員工優待票公告<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t17" style="display:none">
                 <div class="comment"> </div>
               </div>
@@ -603,7 +608,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t18()" style="text-align: left;">2019年5月10日｜桃空職工前往勞動部遞交不當勞動行為裁決申請書<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t18()" style="text-align: left;">2019年5月10日｜桃空職工前往勞動部遞交不當勞動行為裁決申請書<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t18" style="display:none">
                 <div class="comment"> </div>
               </div>
@@ -611,7 +616,7 @@
           </div>
           <div class="timeline" >
             <div class="line" style="display: inline;position: relative;padding-right: 30px">
-              <button type="button" class="btn btn-success" onclick="t19()" style="text-align: left;">2019年5月13日｜桃空職工開始展開「罷工」投票<img src="img/zoom-in-white.svg" alt="" style="width: 2rem;padding-left: .5rem;"></button>
+              <button type="button" class="btn btn-success" onclick="t19()" style="text-align: left;">2019年5月13日｜桃空職工開始展開「罷工」投票<i class="fas fa-search-plus"></i></button>
               <div class="timeline-collapse" id="t19" style="display:none">
                 <div class="comment">
                   <p>・内容：強調將設下雙門檻（即：同意票達全體會員總數50%，且需80%長榮空服員會員同意</p>
