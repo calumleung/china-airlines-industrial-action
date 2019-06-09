@@ -101,7 +101,7 @@
 	cursor: pointer;
 	float: right;
 	font-size: 15px;
-	margin-bottom: 0%;
+	margin-bottom: 10%;
 }
 .chatbox_ask:hover {
 	background: none;
@@ -183,6 +183,7 @@
 }
 #chat1 {
 	display: none;
+	margin-bottom:0%;
 }
 #chat2 {
 	display: none;
