@@ -3,7 +3,7 @@ if(window.screen.width < 576)
 {
   document.getElementById("airplaneimg").style.top = "100px";
   document.getElementById("airplaneimg").style.left = "100px";
-  document.getElementById("explosionimg").style.top = "200px";
+  document.getElementById("explosionimg").style.top = "125px";
   document.getElementById("explosionimg").style.left = "100px";
 }
 }
@@ -42,7 +42,7 @@ function low() {
   // obj.innerHTML="(" + obj.style.left + "," + obj.style.top +")"
 
   if(window.screen.width < 576){
-    if (n === 10) {
+    if (n === 5) {
     n = 0;
     timeStop();
   }
@@ -71,7 +71,7 @@ function high() {
 obj.style.top = parseInt(obj.style.top) + 1 + "px";
 // obj.innerHTML="(" + obj.style.left + "," + obj.style.top +")"
   if(window.screen.width < 576){
-    if (n === 10) {
+    if (n === 5) {
     n = 0;
     timeStop();
   }
