@@ -140,13 +140,14 @@
 	background: #58b5da;
 	min-width:  300px;
 	width: 350px;
+	height: 500px;
 	border-radius: 20px;
 	justify-content: center;
 }
 	
 	.airplane {
 	width: 350px;
-	height: 300px;
+	height: 200px;
 	background: #58b5da;
 	overflow: hidden;
 }
@@ -169,7 +170,7 @@
 	z-index: 100;
 	position: relative;
 	background: #ED6A5A;
-	height: 300px;
+	height: 250px;
 	width: 350px;
 	min-width: 300px;
 	overflow-y: auto;
