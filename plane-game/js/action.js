@@ -1,7 +1,7 @@
 function phone(){
-if(window.screen.width < 480)
+if(window.screen.width < 576)
 {
-  document.getElementById("airplaneimg").style.top = "150px";
+  document.getElementById("airplaneimg").style.top = "100px";
   document.getElementById("airplaneimg").style.left = "100px";
   document.getElementById("explosionimg").style.top = "300px";
   document.getElementById("explosionimg").style.left = "100px";
@@ -24,7 +24,7 @@ function highscore() {
   document.getElementById("score").innerHTML=score;
   document.getElementById("airplaneimg").style.transform = "rotate(15deg)";
   if (score===0){
-    if(window.screen.width < 480){
+    if(window.screen.width < 576){
   document.getElementById("explosionimg").style.display = "block";
     }
     else{
@@ -148,8 +148,8 @@ function theend() {
 
 
 function again(){
-  if(window.screen.width < 480){
-      document.getElementById("airplaneimg").style.top = "150px";
+  if(window.screen.width < 576){
+      document.getElementById("airplaneimg").style.top = "100px";
    document.getElementById("airplaneimg").style.left = "100px";
   }
   else{
