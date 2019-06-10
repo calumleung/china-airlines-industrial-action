@@ -1,6 +1,7 @@
 function phone(){
 if(window.screen.width < 576)
 {
+  console.log('更新')
   document.getElementById("airplaneimg").style.top = "100px";
   document.getElementById("airplaneimg").style.left = "100px";
   document.getElementById("explosionimg").style.top = "125px";
