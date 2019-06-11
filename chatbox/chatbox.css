@@ -59,7 +59,7 @@
   padding:10px 120px;
   position: absolute;
   right:31%;
-  bottom:28.5%;
+  bottom:22%;
 }
 .chatbox_noticeok:hover {
   background: none;
@@ -103,7 +103,7 @@
 	padding:10px 60px;
 	position: absolute;
 	right:35%;
-	bottom:17%;
+	bottom:12%;
 }
 .chatbox_join:hover {
 	background: none;
