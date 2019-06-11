@@ -89,7 +89,7 @@
 	max-width: 60%;
 	border: 1px solid #ffee99;
 	background-color: #ffee99;
-	box-shadow: 0px 7px 2px -5px #454545, inset 0px 0px 3px #ffffba;
+/* 	box-shadow: 0px 7px 2px -5px #454545, inset 0px 0px 3px #ffffba; */
 	border-radius: 20px;
 	color: #262626;
 	font-family: "微軟正黑體";
@@ -102,8 +102,8 @@
 	font-size: 1.3rem;
 	padding:10px 60px;
 	position: absolute;
-	right:35%;
-	bottom:12%;
+	right:36%;
+	bottom:12.5%;
 }
 .chatbox_join:hover {
 	background: none;
