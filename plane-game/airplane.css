@@ -198,8 +198,9 @@
 	vertical-align: middle;
 }
 .qa_container .btn {
-	padding: 0px 10px;
-	width: 90%;
+	padding: 0px 40px;
+	width: 30%;
+	margin-right: 10px;
 }
 .explainbutton {
 	height: 40px;
