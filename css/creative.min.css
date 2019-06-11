@@ -147,12 +147,31 @@ p {
 	max-width: 310px;
 }
 
+.timeline-icon-container {
+	padding-left: 10px;
+	display: inline;
+}
+
+.timeline .timeline-icon-plus {
+	width: 30px;
+	height: 30px;
+}
+
+
+.timeline .timeline-icon {
+	width: 30px;
+	height: 30px;
+	display: none;
+}
+
 .timeline-content button {
 	position: relative;
 	width: auto;
 	padding: .5rem 1rem;
 	font-size: 17px;
 }
+
+
 
 .timeline-content .btn-success {
 	color: #fff;
