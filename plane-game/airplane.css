@@ -1,4 +1,26 @@
 ﻿/*電腦版*/
+/* width */
+.react::-webkit-scrollbar {
+ width: 10px;
+  }
+  
+  /* Track */
+  .react::-webkit-scrollbar-track {
+ background: #FF3333;
+  }
+  
+  /* Handle */
+  .react::-webkit-scrollbar-thumb {
+ background: #ffee99;
+ border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .react::-webkit-scrollbar-thumb:hover {
+ background: #ffc8b4;
+  }
+
+
 .gamecontainer {
 	background: #58b5da;
 	max-width: 800px;
