@@ -1,4 +1,5 @@
 // JavaScript Document
+console.log('更新')
 
 function notice(){
   document.getElementById("chatbox_notification").style.display = "none";
@@ -49,6 +50,8 @@ function add2() {
     if (count == items.length) {
       document.getElementById("chatbox_footer2").style.display = "none";
       document.getElementById("chatbox_footer3").style.display = "block";
+       var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 3000);
@@ -76,7 +79,10 @@ function add3() {
       else{
         document.getElementById("chatbox_word41").style.display = "none";
         document.getElementById("chatbox_word4").style.display = "block";
+
       }
+                     var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 3000);
@@ -110,7 +116,10 @@ function add4() {
       else{
         document.getElementById("chatbox_word51").style.display = "none";
         document.getElementById("chatbox_word5").style.display = "block";
+
       }
+                     var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 3000);
@@ -137,6 +146,8 @@ function add5() {
     if (count == items.length) {
       document.getElementById("chatbox_footer5").style.display = "none";
       document.getElementById("chatbox_footer6").style.display = "block";
+             var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 3000);
@@ -146,6 +157,8 @@ function add6() {
   document.getElementById("chatbox_footer6").style.display = "none";
   document.getElementById("chatbox_footer7").style.display = "block";
   document.getElementById("chat6").style.display = "block";
+                 var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
 }
 
 function add7() {
@@ -164,6 +177,8 @@ function add7() {
     var chatbox = document.getElementsByClassName("chatbox_body")[0];
     chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
+                     var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 1000);
@@ -186,6 +201,8 @@ function add8() {
     var chatbox = document.getElementsByClassName("chatbox_body")[0];
     chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
+                     var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 1000);
@@ -207,6 +224,8 @@ function add9() {
     var chatbox = document.getElementsByClassName("chatbox_body")[0];
     chatbox.scrollTop = chatbox.scrollHeight;
     if (count == items.length) {
+                     var chatbox = document.getElementsByClassName("chatbox_body")[0];
+    chatbox.scrollTop = chatbox.scrollHeight;
       clearInterval(timeId);
     }
   }, 1000);
