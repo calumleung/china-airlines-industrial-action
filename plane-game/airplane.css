@@ -38,7 +38,7 @@
 	position: relative;
 	top: 5rem;
 	right: 12rem;
-	z-index: 100;
+	z-index: 999;
 }
 .messenger-content {
 	background: #404040;
@@ -52,16 +52,9 @@
 	top: -2.4rem;
 	font-size: 18px;
 	text-align: left;
+	z-index: 999;
 }
-.messenger-container p {
-	color: #fff;
-	font-size: 16px;
-	display: contents;
-	position: relative;
-	top: 1rem;
-	left: 5rem;
-	background-color: #404040;
-}
+
 
 #m1{
 display:none;
@@ -226,6 +219,10 @@ display:none;
 
 /*手機版*/
 @media(max-width:576px) {
+	.airplane_container {
+		height: 300px;
+	}
+
 .gamecontainer {
 	background: #58b5da;
 	min-width: 300px;
@@ -234,6 +231,34 @@ display:none;
 	border-radius: 20px;
 	justify-content: center;
 }
+
+.messenger img {
+	height: 50px;
+	width: 50px;
+	background: #404040;
+	padding: .5rem;
+	border-radius: 10px;
+	position: relative;
+	top: 14rem;
+	right: 12rem;
+	z-index: 99;
+}
+
+.messenger-content {
+	background: #404040;
+	border-radius: 10px;
+	padding: 10px 15px;
+	width: 200px;
+	height: 50px;
+	display: inline-table;
+	margin-left: 3rem;
+	position: relative;
+	top: 9rem;
+	font-size: 14px;
+	text-align: left;
+	z-index: 99;
+}
+
 .airplane {
 	width: 350px;
 	height: 200px;
