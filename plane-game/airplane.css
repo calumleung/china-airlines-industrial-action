@@ -50,6 +50,7 @@
 	margin-left: 5rem;
 	position: relative;
 	top: -2.4rem;
+	display: none;
 }
 .messenger-container p {
 	color: #fff;
