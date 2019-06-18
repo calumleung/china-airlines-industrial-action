@@ -50,7 +50,6 @@
 	margin-left: 5rem;
 	position: relative;
 	top: -2.4rem;
-	display: none;
 }
 .messenger-container p {
 	color: #fff;
@@ -61,6 +60,51 @@
 	left: 5rem;
 	background-color: #404040;
 }
+
+#m1{
+display:none;
+}
+
+#m2{
+display:none;
+}
+
+#m3{
+display:none;
+}
+
+#m4{
+display:none;
+}
+
+#m5{
+display:none;
+}
+
+#m6{
+display:none;
+}
+
+#m7{
+display:none;
+}
+
+#m8{
+display:none;
+}
+
+#m9{
+display:none;
+}
+
+#m10{
+display:none;
+}
+
+#m11{
+display:none;
+}
+
 .airplane {
 	height: 620px;
 	width: 400px;
