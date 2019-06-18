@@ -1,4 +1,24 @@
-console.log('更新1')
+console.log('更新2')
+
+
+function phone(){
+if(window.screen.width < 576)
+{
+  document.getElementById("airplaneimg").style.top = "100px";
+  document.getElementById("airplaneimg").style.left = "100px";
+  document.getElementById("explosionimg").style.top = "150px";
+  document.getElementById("explosionimg").style.left = "100px";
+}
+}
+
+var n = 0;
+var score = 10000;
+
+
+function lowscore() {
+  score=score+200;
+  document.getElementById("score").innerHTML=score;
+    document.getElementById("airplaneimg").style.transform = "rotate(-15deg)";
 if(score==11000){
     document.getElementById("m1").style.display = "block";
 }
@@ -32,27 +52,8 @@ else if(score>=2000){
 else {
     document.getElementById("m11").style.display = "block";
 }
-
-function phone(){
-if(window.screen.width < 576)
-{
-  document.getElementById("airplaneimg").style.top = "100px";
-  document.getElementById("airplaneimg").style.left = "100px";
-  document.getElementById("explosionimg").style.top = "150px";
-  document.getElementById("explosionimg").style.left = "100px";
-}
 }
 
-var n = 0;
-var score = 10000;
-
-
-function lowscore() {
-  score=score+200;
-  document.getElementById("score").innerHTML=score;
-    document.getElementById("airplaneimg").style.transform = "rotate(-15deg)";
-
-}
 
 function highscore() {
   score=score-2000;
@@ -67,6 +68,39 @@ function highscore() {
   document.getElementById("explosionimg").style.display = "block";
       }
   }
+    if(score==11000){
+    document.getElementById("m1").style.display = "block";
+}
+else if(score>=10800){
+    document.getElementById("m2").style.display = "block";
+}
+else if(score>=10600){
+    document.getElementById("m3").style.display = "block";
+}
+else if(score>=10400){
+    document.getElementById("m4").style.display = "block";
+}
+else if(score>=10200){
+    document.getElementById("m5").style.display = "block";
+}
+else if(score>=10000){
+    document.getElementById("m6").style.display = "block";
+}
+else if(score>=8000){
+    document.getElementById("m7").style.display = "block";
+}
+else if(score>=6000){
+    document.getElementById("m8").style.display = "block";
+}
+else if(score>=4000){
+    document.getElementById("m9").style.display = "block";
+}
+else if(score>=2000){
+    document.getElementById("m10").style.display = "block";
+}
+else {
+    document.getElementById("m11").style.display = "block";
+}
 }
 
 function low() {
