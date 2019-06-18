@@ -1,4 +1,4 @@
-console.log('更新3')
+console.log('更新5')
 
 
 function phone(){
@@ -45,6 +45,11 @@ else if(score>=10000){
 else if(score>=8000){
     document.getElementById("m7").style.display = "block";
     document.getElementById("m6").style.display = "none";
+    document.getElementById("m5").style.display = "none";
+  document.getElementById("m4").style.display = "none";
+  document.getElementById("m3").style.display = "none";
+  document.getElementById("m2").style.display = "none";
+  document.getElementById("m1").style.display = "none";
 }
 else if(score>=6000){
     document.getElementById("m8").style.display = "block";
@@ -104,6 +109,11 @@ else if(score>=10000){
 else if(score>=8000){
     document.getElementById("m7").style.display = "block";
     document.getElementById("m6").style.display = "none";
+    document.getElementById("m5").style.display = "none";
+  document.getElementById("m4").style.display = "none";
+  document.getElementById("m3").style.display = "none";
+  document.getElementById("m2").style.display = "none";
+  document.getElementById("m1").style.display = "none";
 }
 else if(score>=6000){
     document.getElementById("m8").style.display = "block";
@@ -277,7 +287,6 @@ function again(){
   document.getElementById("m3").style.display = "none";
   document.getElementById("m4").style.display = "none";
   document.getElementById("m5").style.display = "none";
-  document.getElementById("m6").style.display = "none";
   document.getElementById("m7").style.display = "none";
   document.getElementById("m8").style.display = "none";
   document.getElementById("m9").style.display = "none";
