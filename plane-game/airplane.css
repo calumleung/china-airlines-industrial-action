@@ -43,10 +43,10 @@
 .messenger-container {
 	background: #404040;
 	height: 50px;
-	width: 100px;
-	top: 1.5rem;
+	width: 200px;
+	top: 1.3rem;
 	left: 5rem;
-	border-radius: 20px;
+	border-radius: 10px;
 	padding: 10px;
 	margin: 10px;
 	position: relative;
