@@ -23,7 +23,7 @@
 	background: #58b5da;
 	max-width: 800px;
 	width: 720px;
-	max-height: 620px;
+	height: 550px;
 	border-radius: 20px;
 	overflow-x: hidden;
 }
@@ -46,10 +46,12 @@
 	padding: 10px 15px;
 	width: 200px;
 	height: 50px;
-	display: inline-block;
+	display: inline-table;
 	margin-left: 5rem;
 	position: relative;
 	top: -2.4rem;
+	font-size: 18px;
+	text-align: left;
 }
 .messenger-container p {
 	color: #fff;
@@ -82,7 +84,7 @@ display:none;
 }
 
 #m6{
-display:block;
+display:inline-table;
 }
 
 #m7{
@@ -106,7 +108,6 @@ display:none;
 }
 
 .airplane {
-	height: 620px;
 	width: 400px;
 }
 #runway {
@@ -128,7 +129,7 @@ display:none;
 	z-index: 100;
 	position: relative;
 	background: #ED6A5A;
-	height: 620px;
+	height: 550px;
 	overflow: auto;
 	border-radius: 0px 20px 20px 0px;
 }
