@@ -2,25 +2,23 @@
 /* width */
 .react::-webkit-scrollbar {
  width: 10px;
-  }
+}
   
   /* Track */
   .react::-webkit-scrollbar-track {
  background: #FF3333;
-  }
+}
   
   /* Handle */
   .react::-webkit-scrollbar-thumb {
  background: #ffee99;
  border-radius: 5px;
-  }
+}
   
   /* Handle on hover */
   .react::-webkit-scrollbar-thumb:hover {
  background: #ffc8b4;
-  }
-
-
+}
 .gamecontainer {
 	background: #58b5da;
 	max-width: 800px;
@@ -30,6 +28,28 @@
 	overflow-x: hidden;
 }
 .airplane_container {
+}
+.messenger img {
+	height: 50px;
+	width: 50px;
+	background: #404040;
+	padding: .5rem;
+	border-radius: 10px;
+	position: relative;
+	top: 5rem;
+	right: 12rem;
+	z-index: 100;
+}
+.messenger-container {
+	background: #404040;
+	height: 50px;
+	width: 100px;
+	top: 1.5rem;
+	left: 5rem;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	position: relative;
 }
 .airplane {
 	height: 620px;
@@ -57,15 +77,12 @@
 	height: 620px;
 	overflow: auto;
 	border-radius: 0px 20px 20px 0px;
-	
 }
-
-.react p{
+.react p {
 	font-size: 20px;
 	color: #FFFFFF;
 	font-weight: 300;
 }
-
 .question {
 	text-align: left;
 	padding: 3rem;
@@ -102,7 +119,6 @@
 	overflow: auto;
 	max-height: px;
 }
-
 .explain hr {
 	color: #fff!important;
 	margin-top: 1rem;
@@ -110,15 +126,12 @@
 	border: 0;
 	border-top: 1px solid #fff!important
 }
-
 .explainbutton {
 	background-color: #FFDD71!important;
 	width: 90%!important;
 	margin: 1rem!important;
 	color: #1B1B1B!important;
-
 }
-
 #q2 {
 	display: none;
 }
@@ -160,14 +173,13 @@
 @media(max-width:576px) {
 .gamecontainer {
 	background: #58b5da;
-	min-width:  300px;
+	min-width: 300px;
 	width: 350px;
 	height: 500px;
 	border-radius: 20px;
 	justify-content: center;
 }
-	
-	.airplane {
+.airplane {
 	width: 350px;
 	height: 200px;
 	background: #58b5da;
@@ -196,7 +208,7 @@
 	width: 350px;
 	min-width: 300px;
 	overflow-y: auto;
-	overflow-x:hidden; 
+	overflow-x: hidden;
 	border-radius: 0px 20px 20px 0px;
 }
 .react p {
@@ -236,7 +248,7 @@
 	font-size: 16px;
 	color: #fff;
 	font-weight: 300;
-	}
+}
 .end {
 	font-size: 14px;
 	padding: 30px;
